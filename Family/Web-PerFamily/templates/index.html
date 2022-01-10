@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Let See How Much Money Should A Family Pay !</title>
+      <link href="../static/style.css" type="text/css" rel="stylesheet">
+      <style>
+         body {
+            background-color: #f1f1f1;
+         }
+         .form {
+            margin-top: 50px;
+            margin-left: 50px;
+         }
+         .inputs input {
+            width: 250px;
+            height: 35px;
+         }
+         a {
+            color: aqua;;
+         }
+         a:hover {
+            text-decoration: none;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="form">
+         <form action="/money" method="POST">
+            <div class="inputs">
+               <label>How Much !?</label>
+               <br>
+               <input class="form-control" name="money" type="text" placeholder="How Much Money !?">
+            </div>
+            <br>
+            <div class="buttons">
+               <button class="btn btn-success" type="submit">Go</button>
+               <button class="btn btn-danger" type="reset">Reset</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
